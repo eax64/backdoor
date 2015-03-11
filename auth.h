@@ -5,11 +5,11 @@
 ** Login   <soules_k@epitech.net>
 ** 
 ** Started on  Wed Mar 11 22:34:53 2015 eax
-** Last update Wed Mar 11 22:34:53 2015 eax
+** Last update Wed Mar 11 22:43:13 2015 eax
 */
 
 /*
-** CQ AUTH API V1
+** CQ AUTH API V1.1
 */
 
 #ifndef AUTH_CQ_
@@ -36,6 +36,6 @@ typedef struct access_request {
 } access_request_t;
 
 
-int auth(user_t *user, group_t *group, access_request_t *req);
+int auth(user_t *users, group_t *groups, access_request_t *req);
 
 #endif

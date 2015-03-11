@@ -5,15 +5,15 @@
 ** Login   <soules_k@epitech.net>
 ** 
 ** Started on  Wed Mar 11 22:14:49 2015 eax
-** Last update Wed Mar 11 22:33:05 2015 eax
+** Last update Wed Mar 11 22:42:46 2015 eax
 */
 
 #include "auth.h"
 
-int auth(user_t *user, group_t *group, access_request_t *req)
+int auth(user_t *users, group_t *groups, access_request_t *req)
 {
-  (void) user;
-  (void) group;
+  (void) users;
+  (void) groups;
   (void) req;
   return -1;
 }
