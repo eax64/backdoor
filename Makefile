@@ -5,13 +5,13 @@
 ## Login   <soules_k@epitech.net>
 ## 
 ## Started on  Wed Mar 11 22:23:54 2015 eax
-## Last update Wed Mar 11 22:46:42 2015 eax
+## Last update Wed Mar 11 23:01:46 2015 eax
 ##
 
 CC	=	gcc
-CFLAGS	=	-W -Wall -Wextra --std=gnu99
+CFLAGS	=	-W -Wall -Wextra --std=gnu99 -I.
 
-SRC	=	auth.c test.c
+SRC	=	auth.c tests/test.c
 OBJ	=	$(SRC:.c=.o)
 
 NAME	=	auth
